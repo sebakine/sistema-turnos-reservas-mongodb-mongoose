@@ -1,0 +1,38 @@
+{
+  "name": "sistema-turnos-reservas-mongodb-mongoose",
+  "version": "1.0.0",
+  "description": "Sistema Backend de Turnos y Reservas: API REST con Express, arquitectura en capas (router, controller, service, repository y DAO) y persistencia en MongoDB Atlas mediante Mongoose",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "seed": "node src/scripts/seed.js",
+    "test": "node --test tests/api.test.js"
+  },
+  "keywords": [
+    "express",
+    "api-rest",
+    "mongodb",
+    "mongodb-atlas",
+    "mongoose",
+    "arquitectura-en-capas",
+    "dao",
+    "repository",
+    "turnos",
+    "reservas"
+  ],
+  "author": "Sebastian Felipe Muñoz Rivera",
+  "license": "ISC",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "mongoose": "^8.19.3"
+  },
+  "devDependencies": {
+    "mongodb-memory-server": "^10.3.0"
+  }
+}
